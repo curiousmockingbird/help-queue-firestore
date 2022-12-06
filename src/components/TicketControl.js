@@ -52,6 +52,7 @@ function TicketControl () {
     //new code: from this.state.selectedTicket.id to selectedTicket.id
       .filter(ticket => ticket.id !== selectedTicket.id)
       .concat(ticketToEdit);
+      
       setMainTicketList(editedMainTicketList);
       setEditing(false);
       setSelectedTicket(null);
