@@ -6,6 +6,7 @@ import TicketDetail from './TicketDetail';
 import db from './../firebase.js';
 import { collection, addDoc, doc, updateDoc, onSnapshot, deleteDoc } from "firebase/firestore";
 
+
 function TicketControl () {
 
   // constructor(props) {
